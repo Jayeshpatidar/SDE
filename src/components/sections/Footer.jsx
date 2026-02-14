@@ -20,7 +20,7 @@ function Footer({ theme }) {
         data-icon="octicon-star"
         data-size="large"
         data-show-count="true"
-        aria-label="Star dsbalico/dsfolio on GitHub"
+        aria-label="Star Jayeshpatidar/jayesh-portfolio on GitHub"
       >
         Star on Github
       </GitHubButton>

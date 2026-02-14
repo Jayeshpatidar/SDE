@@ -3,7 +3,7 @@ import { FaLandmark } from "react-icons/fa";
 import { FaBuildingUser } from "react-icons/fa6";
 import { FcGoogle } from "react-icons/fc";
 import { PiCertificateFill } from "react-icons/pi";
-import { SiHackerrank, SiIbm } from "react-icons/si";
+import { SiIbm } from "react-icons/si";
 
 function EducationAndExperience() {
   return (
@@ -200,7 +200,7 @@ function EducationAndExperience() {
 
         <div className="md:h-[480px] md:overflow-y-scroll scroll-smooth">
           {/* =========== EXPERIENCE LIST =========== */}
-          {user_info.experience.map((exp, index) => {
+          {[...user_info.experience].reverse().map((exp, index) => {
             return (
               <div key={index}>
                 <div className="ps-2 my-2 first:mt-0 !mt-2">

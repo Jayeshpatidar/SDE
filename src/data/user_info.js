@@ -3,8 +3,8 @@ const info = {
   main: {
     name: "Jayesh Patidar",
     description:
-      "I am a software engineer with expertise in full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
-    role: "Full-Stack Developer",
+      "I am a software engineer with expertise in Web, ReactJs, full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
+    role: "Software Developer",
     photo: "../photo.jpg",
     email: "jayeshpatidar961@gmail.com",
   },
@@ -21,28 +21,28 @@ const info = {
   // ============ PROJECTS ============
   projects: [
     {
+      title: "Car Rental Application",
+      description:
+        "This Project is based on to buy car on rent basis. This system was designed to do basic operation like create User Account and User can select car and buy car on rent and after return that car. If user want to update his own details so user can update and also delete it. In Admin, admin can handle all operation like create, read, update and delete records.",
+      technologies: "Java and JSP &Servlet, HTML, CSS, MySQL( JDBC )",
+      github: "#!",
+      link: "#!",
+    },
+    {
+      title: "Blogging Website",
+      description:
+        "In this project user can create new account and create own post and publish and it will show in home page and also view by category. User can commit on other user post and read it all post. The project is based on CRUD Operation.",
+      technologies: "ReactJS, React Material UI, NodeJS",
+      github: "#!",
+      link: "#!",
+    },
+    {
       title: "Online Auction System",
       description:
-        "Developed to learn full-stack web development using Nuxt3, Express, and PostgreSQL in fulfillment of my internship requirements.",
-      technologies: "HTML5, CSS3, JavaScript, PHP, MySQL",
-      github: "",
-      link: "",
-    },
-    {
-      title: "Blogging Posting",
-      description:
-        "Developed to learn full-stack web development using Nuxt3, Express, and PostgreSQL in fulfillment of my internship requirements.",
-      technologies: "ReactJS, Tailwind, Express, Mongodb, CSS",
-      github: "",
-      link: "",
-    },
-    {
-      title: "Car Rental System",
-      description:
-        "Developed to learn full-stack web development using Nuxt3, Express, and PostgreSQL in fulfillment of my internship requirements.",
-      technologies: "Java, JSP & Servlets, MySQL",
-      github: "",
-      link: "",
+        "An online auction is a service in which auction users or participants sell or bid for products or services via the Internet. This system was designed to do basic operation like Add new products, Update, Review Products Details, and Delete Products.",
+      technologies: "HTML, CSS, PHP and MySQL",
+      github: "#!",
+      link: "#!",
     },
   ],
 
@@ -121,6 +121,19 @@ const info = {
         "Enhanced site functionality by implementing dynamic elements using JavaScript, achieving 35% more user interaction.",
       ],
       link: "https://graficali.com/",
+    },
+    {
+      position: "Software Developer",
+      company: "ICICI Lombard",
+      duration: "Sep 2025 – Preset",
+      image: "icici-lombard.png",
+      descriptions: [
+        "Working on H&M, SME Project.",
+        "Making UI based on Figma design and making it dynamic using Angular, JavaScript and TypeScript.",
+        "API’s implementation and handling pages and showing data etc.",
+        "Enhanced site functionality by implementing dynamic elements using Angular and JavaScript, achieving 35% more user interaction.",
+      ],
+      link: "https://www.icicilombard.com/",
     },
   ],
 

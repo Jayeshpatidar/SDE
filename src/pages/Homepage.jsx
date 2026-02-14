@@ -19,7 +19,7 @@ function Homepage() {
 
   return (
     <div className="bg-zinc-100 dark:bg-zinc-900">
-      <div className="xl:w-[1300px] md:mx-auto h-full border-x border-zinc-100 dark:border-zinc-800 bg-white dark:bg-zinc-950">
+      <div className="md:mx-auto h-full border-x border-zinc-100 dark:border-zinc-800 bg-white dark:bg-zinc-950">
         <Navbar />
         <Hero />
         <Projects />

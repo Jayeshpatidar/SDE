@@ -28,7 +28,7 @@ const Navbar = () => {
                 href="#education-and-experience"
                 className="hover:text-red-800 transition duration-300"
               >
-                About
+                Experience
               </a>
               <a
                 href="#projects"
@@ -82,7 +82,7 @@ const Navbar = () => {
             href="#education-and-experience"
             className="block py-2 hover:text-red-800 transition duration-300"
           >
-            About
+            Experience
           </a>
           <a
             href="#projects"
