@@ -97,9 +97,6 @@ const Navbar = () => {
             Contact
           </a>
         </div>
-        <div className="md:hidden absolute top-5 right-5">
-          <ToggleTheme switchTheme={switchTheme} />
-        </div>
       </nav>
     </>
   );
