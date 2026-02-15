@@ -5,6 +5,8 @@ import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 function Contact() {
+  const today = new Date();
+  const dayName = today.toLocaleDateString("en-US", { weekday: "long" });
   return (
     <section id="contact" className="mt-16 pt-12 px-6 lg:px-24">
       {/* =========== TITLE =========== */}
@@ -62,6 +64,12 @@ function Contact() {
         <MdEmail className="self-center text-lg text-red-800 dark:text-red-500" />
         <span>{user_info.main.email}</span>
       </a>
+      <span className="text-center block mt-6 text-zinc-600 dark:text-zinc-300">
+        Thank you for visiting my portfolio! <br />
+        <span className="text-red-800 dark:text-red-500 text-lg font-bold">
+          Have A Great {dayName}!
+        </span>
+      </span>
     </section>
   );
 }

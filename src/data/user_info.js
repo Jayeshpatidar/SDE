@@ -6,7 +6,7 @@ const info = {
       "I am a software engineer with expertise in Web, ReactJs, full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
     role: "Software Developer",
     photo: "../photo.jpg",
-    email: "jayeshpatidar961@gmail.com",
+    email: "jayeshpatidar960@gmail.com",
   },
 
   // ============ SOCIAL LINKS ============
@@ -62,13 +62,13 @@ const info = {
       image: "KCCLogo.jpg",
       website: "https://kccollege.edu.in/",
     },
-    {
-      school: "Marwari Vidyalaya High School",
-      degree: "SSC",
-      duration: "2015 - 2015",
-      image: "MVHSchool.jpg",
-      website: "http://marwarividyalaya.com/",
-    },
+    // {
+    //   school: "Marwari Vidyalaya High School",
+    //   degree: "SSC",
+    //   duration: " - 2015",
+    //   image: "MVHSchool.jpg",
+    //   website: "http://marwarividyalaya.com/",
+    // },
   ],
 
   // ============ EXPERIENCE ============
